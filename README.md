@@ -9,8 +9,8 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
+- Nome: Samuel Henrique Alvarenga e Lopes
+- Matricula: 904718
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 
@@ -18,6 +18,6 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![Grafico atrações por estado](image.png)
 
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>

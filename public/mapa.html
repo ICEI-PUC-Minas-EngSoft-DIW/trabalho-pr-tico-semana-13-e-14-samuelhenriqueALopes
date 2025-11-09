@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lugares Turísticos - Mapa Interativo</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Mapbox -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>🏞️ Lugares Turísticos</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="#">Diversão</a>
+      <a href="#">Natureza</a>
+      <a href="#">Cultura</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Mapa Interativo</h2>
+      <div id="map" style="height: 400px; border-radius: 10px; margin-bottom: 30px;"></div>
+    </section>
+
+    <section>
+      <h2>Gráfico de Atrações por Estado</h2>
+      <canvas id="graficoBarras" width="400" height="200"></canvas>
+    </section>
+
+    <section>
+      <h2>Gráfico de Avaliação Média</h2>
+      <canvas id="graficoPizza" width="400" height="200"></canvas>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Projeto Interativo com Mapbox & Chart.js © 2025</p>
+  </footer>
+
+  <script src="graficos.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="js/mapa.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes da Atração</title>
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+    /* CSS extra para detalhes */
+    .detalhes-container {
+      padding: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .detalhes-container h1 {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .imagem-detalhe {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .detalhes-container p {
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+    }
+
+    .voltar {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #2e7d32;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .voltar:hover {
+      background-color: #1b5e20;
+    }
+
+    /* ESTILOS PARA GALERIA DE FOTOS SECUNDÁRIAS */
+    .fotos-secundarias-titulo {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    
+    .galeria-secundaria {
+      display: flex;
+      overflow-x: auto; 
+      gap: 10px;
+      padding-bottom: 10px; 
+    }
+    
+    .galeria-secundaria img {
+      flex: 0 0 150px; 
+      height: 100px;
+      object-fit: cover;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .galeria-secundaria img:hover {
+      transform: scale(1.05);
+    }
+    
+    /* Estilos de Header e Footer para contexto */
+    .header {
+        background-color: #388e3c;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo { margin: 0; font-size: 1.5rem; }
+    .nav a { color: white; margin-left: 15px; text-decoration: none; }
+    .footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #f1f1f1;
+        margin-top: 2rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="logo">Onde Ir Atrações</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#">Diversão</a>
+        <a href="#">Alimentação</a>
+        <a href="#">Natureza</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <div class="detalhes-container">
+        </div>
+    </main>
+
+    <footer class="footer">
+      <p>Onde Ir Atrações &copy; 2025</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

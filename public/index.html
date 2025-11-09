@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Onde Ir Atrações</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Header -->
+    <header class="header">
+      <h1 class="logo">Onde Ir Atrações</h1>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Diversão</a>
+        <a href="#">Alimentação</a>
+        <a href="#">Natureza</a>
+        <a href="mapa.html"> Mapa Interativo</a>
+      </nav>
+    </header>
+
+    <!-- Layout principal -->
+    <div class="layout">
+      
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="account">
+          <h3>Minha Conta</h3>
+          <form>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" placeholder="Usuário" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+          </form>
+        </div>
+
+        <div class="menu">
+          <button>Home</button>
+          <button>Diversão</button>
+          <button>Alimentação</button>
+          <button>Natureza</button>
+          <button>Parques</button>
+          <button>Mais</button>
+        </div>
+
+        <div class="avaliacoes">
+          <h4>Avaliações</h4>
+          <ol>
+            <li><img src="img/estrela.png" alt="★" class="star">Praia</li>
+            <li><img src="img/estrela.png" alt="★" class="star">Parque</li>
+            <li><img src="img/estrela.png" alt="★" class="star">Cachoeira</li>
+            <li><img src="img/estrela.png" alt="★" class="star">Restaurante</li>
+            <li><img src="img/estrela.png" alt="★" class="star">Trilha</li>
+          </ol>
+        </div>
+      </aside>
+
+      <!-- Conteúdo principal -->
+      <main class="content">
+        <!-- Banner + texto -->
+        <div class="banner">
+          <img src="img/Banner.png" alt="Banner principal">
+          <p class="intro">
+            Bem-vindo ao Onde Ir Atrações! Aqui você encontra os melhores lugares para se divertir, relaxar e conhecer novas experiências. Explore atrações próximas de você e planeje seu próximo passeio de forma prática e divertida.
+          </p>
+        </div>
+
+        <!-- Cards "Próximos a você" -->
+        <section class="proximos">
+          <h2>Próximos a você</h2>
+          <!-- Cards serão inseridos dinamicamente via JS -->
+          <div class="grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Onde Ir Atrações &copy; 2025</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Script principal -->
+  <script src="app.js"></script>
+</body>
+</html>

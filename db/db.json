@@ -1,18 +1,184 @@
 {
-  "usuarios": [
+  "atracoes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Praia de Copacabana",
+      "descricao": "Um dos cartões-postais mais famosos do Rio de Janeiro.",
+      "conteudo": "A Praia de Copacabana é conhecida mundialmente por sua beleza e por sediar grandes eventos, como o réveillon mais famoso do país.",
+      "categoria": "Praias",
+      "localizacao": "Rio de Janeiro - RJ",
+      "avaliacao": "★★★★★",
+      "imagem": "img/copaCabana.jpeg",
+      "horario": "Aberta 24h",
+      "preco_medio": "Gratuito",
+      "latitude": -22.9711,
+      "longitude": -43.1803,
+      "fotos_associadas": [
+        "img/copacabana1.png",
+        "img/copacabana2.png"
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Hot Park",
+      "descricao": "Um parque aquático com águas termais naturais.",
+      "conteudo": "Localizado em Goiás, o Hot Park é um dos maiores parques aquáticos da América do Sul.",
+      "categoria": "Diversão",
+      "localizacao": "Rio Quente - GO",
+      "avaliacao": "★★★★☆",
+      "imagem": "img/HotPark.jpeg",
+      "horario": "09:00 - 18:00",
+      "preco_medio": "R$ 120,00",
+      "latitude": -17.7739,
+      "longitude": -48.4544,
+      "fotos_associadas": [
+        "img/hotpark1.png",
+        "img/hotpark2.png"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Cachoeira do Tabu",
+      "descricao": "Uma queda d’água exuberante em meio à natureza mineira.",
+      "conteudo": "A Cachoeira do Tabu encanta os visitantes com suas águas cristalinas e trilhas ecológicas.",
+      "categoria": "Natureza",
+      "localizacao": "Minas Gerais - MG",
+      "avaliacao": "★★★★★",
+      "imagem": "img/CachoeiraTabu.jpg",
+      "horario": "06:00 - 17:00",
+      "preco_medio": "R$ 15,00",
+      "latitude": -19.9400,
+      "longitude": -46.6333,
+      "fotos_associadas": [
+        "img/cachoeiratabu1.png",
+        "img/cachoeiratabu2.png"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Parque Ibirapuera",
+      "descricao": "O parque mais famoso de São Paulo, perfeito para lazer e cultura.",
+      "conteudo": "Conta com áreas verdes, museus, lagos e pistas para caminhada.",
+      "categoria": "Parques",
+      "localizacao": "São Paulo - SP",
+      "avaliacao": "★★★★☆",
+      "imagem": "img/ibirapuera.jpeg",
+      "horario": "05:00 - 22:00",
+      "preco_medio": "Gratuito",
+      "latitude": -23.5874,
+      "longitude": -46.6576,
+      "fotos_associadas": [
+        "img/ibirapuera1.png",
+        "img/ibirapuera2.png"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Cristo Redentor",
+      "descricao": "Uma das 7 maravilhas do mundo moderno.",
+      "conteudo": "Símbolo do Rio de Janeiro e do Brasil, o Cristo Redentor oferece uma vista panorâmica da cidade.",
+      "categoria": "Ponto Turístico",
+      "localizacao": "Rio de Janeiro - RJ",
+      "avaliacao": "★★★★★",
+      "imagem": "img/CristoRedentor.png",
+      "horario": "08:00 - 19:00",
+      "preco_medio": "R$ 80,00",
+      "latitude": -22.9519,
+      "longitude": -43.2105,
+      "fotos_associadas": [
+        "img/CristoReden1.png",
+        "img/CristoReden2.png"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Pelourinho",
+      "descricao": "Centro histórico e cultural de Salvador.",
+      "conteudo": "Com suas ladeiras e casarões coloridos, o Pelourinho é patrimônio mundial da UNESCO.",
+      "categoria": "História e Cultura",
+      "localizacao": "Salvador - BA",
+      "avaliacao": "★★★★☆",
+      "imagem": "img/Pelourinho.png",
+      "horario": "Livre acesso",
+      "preco_medio": "Gratuito",
+      "latitude": -12.9714,
+      "longitude": -38.5108,
+      "fotos_associadas": [
+        "img/Pelourinho1.png",
+        "img/Pelourinho2.png"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Conjunto Arquitetônico da Pampulha",
+      "descricao": "Obra de Oscar Niemeyer e Burle Marx, marco da arquitetura moderna.",
+      "conteudo": "Um complexo urbanístico e paisagístico que é símbolo de Belo Horizonte.",
+      "categoria": "Cultura",
+      "localizacao": "Belo Horizonte - MG",
+      "avaliacao": "★★★★☆",
+      "imagem": "img/pampulha.png",
+      "horario": "08:00 - 18:00",
+      "preco_medio": "Gratuito",
+      "latitude": -19.8511,
+      "longitude": -43.9876,
+      "fotos_associadas": [
+        "img/pampulha1.png",
+        "img/pampulha2.png"
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Cataratas do Iguaçu",
+      "descricao": "Uma das maiores quedas d’água do mundo.",
+      "conteudo": "Localizadas no Paraná, as Cataratas do Iguaçu atraem turistas do mundo inteiro.",
+      "categoria": "Natureza",
+      "localizacao": "Foz do Iguaçu - PR",
+      "avaliacao": "★★★★★",
+      "imagem": "img/cataratas.png",
+      "horario": "09:00 - 17:00",
+      "preco_medio": "R$ 60,00",
+      "latitude": -25.6953,
+      "longitude": -54.4367,
+      "fotos_associadas": [
+        "img/cataratas1.png",
+        "img/cataratas2.png"
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Teatro Amazonas",
+      "descricao": "Símbolo cultural da cidade de Manaus.",
+      "conteudo": "Construído no auge do ciclo da borracha, é um ícone da arquitetura neoclássica.",
+      "categoria": "Cultura",
+      "localizacao": "Manaus - AM",
+      "avaliacao": "★★★★★",
+      "imagem": "img/TeatroAM.png",
+      "horario": "09:00 - 17:00",
+      "preco_medio": "R$ 20,00",
+      "latitude": -3.1303,
+      "longitude": -60.0236,
+      "fotos_associadas": [
+        "img/TeatroAM1.png",
+        "img/TeatroAM2.png"
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Jardim Botânico de Curitiba",
+      "descricao": "Um dos cartões-postais do Paraná.",
+      "conteudo": "Inspirado nos jardins franceses, possui uma estufa de ferro e vidro e vastos jardins floridos.",
+      "categoria": "Natureza",
+      "localizacao": "Curitiba - PR",
+      "avaliacao": "★★★★★",
+      "imagem": "img/Jardim.png",
+      "horario": "06:00 - 20:00",
+      "preco_medio": "Gratuito",
+      "latitude": -25.4429,
+      "longitude": -49.2421,
+      "fotos_associadas": [
+        "img/Jardim1.png",
+        "img/Jardim2.png"
+      ]
     }
   ]
 }
